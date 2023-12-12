@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@100&display=swap');
+
+
+
+.navbar-nav a {
+    color: #85C2AD;
+    font-size: 18px;
+}
+
+nav {
+    height: 6rem;
+}
+
+nav img {
+    height: 6rem;
+}
+
+
+
+main.page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 14px #00000012;
+    opacity: 1;
+    height: 4658px;
+    width: 76%;
+    margin-left: 262px;
+    margin-top: 0;
+}
+
+main .sub-content {
+    margin-top: 23rem;
+    margin-left: 1.7rem;
+}
+
+main .content {
+    position: absolute;
+    margin-top: 18%;
+    width: 500px;
+    margin-left: 5rem;
+}
+
+main .content h3 {
+    font-size: 49px;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+}
+
+main .content .retang {
+    width: 337px;
+    margin-left: -5rem;
+    height: 60px;
+    margin-top: -4.5rem;
+    background-color: #85C2AD;
+}
+
+main .content .btn-sem-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    background: var(--unnamed-color-85c2ad) 0% 0% no-repeat padding-box;
+    background: #85C2AD 0% 0% no-repeat padding-box;
+    width: 376px;
+    margin-left: 30rem;
+    height: 45px;
+    margin-top: -27.5rem;
+    font-size: 18px;
+    border-radius: 22px;
+    opacity: 1;
+}
+
+section {
+    margin-top: -275vh;
+}
+
+.alinhar {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.alinhar .card {
+    border: none;
+    margin-left: 16px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 17px #0000000F;
+    border-radius: 10px;
+    opacity: 1;
+    width: 444px !important;
+    height: 480px !important;
+
+}
+
+.about {
+    margin-top: 5rem;
+}
+
+.about .card-title {
+    font-size: 24px;
+    color: #4A7866;
+}
+
+.about .card-text {
+    font-size: 22px;
+    color: #6D6D6D;
+}
+
+.about .col-md-8 {
+    flex: 0 0 auto;
+    width: 505px !important;
+    margin-left: 18rem !important;
+}
+
+.about .col-md-4 .img-fluid {
+    width: 912px;
+    max-width: none !important;
+    height: auto;
+    margin-left: -15.2rem;
+}
+
+
+
+/* SOBRE O CONSULTÓRIO*/
+.about-consultorio .svg-img {
+    margin-left: 17px;
+    width: 198px;
+    height: 425px;
+    background: transparent url('img/Interseção 2.png') 0% 0% no-repeat padding-box;
+    border: 1px solid #00000000;
+    opacity: 1;
+}
+.about-consultorio .col-md-8{
+    flex: 0 0 auto;
+    width: 505px !important;
+    margin-left: -11rem !important;
+}
+
+.about-consultorio .img-fluid {
+    width: 912px;
+    max-width: none !important;
+    height: auto;
+    margin-right: 10rem !important;
+}
+
+.about-consultorio {
+    margin-top: 5rem;
+}
+
+.about-consultorio .card-title {
+    font-size: 24px;
+    color: #4A7866;
+}
+
+.about-consultorio .card-text {
+    font-size: 22px;
+    color: #6D6D6D;
+}
+
+.about-consultorio .col-md-4 .img-lateral {
+    width: 166%;
+}
+
+.about-consultorio .waze {
+    width: 80px;
+    border-radius: 25px;
+}
+
+
+.card-body button {
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #E4AAAC;
+    font-size: 22px;
+    width: 168px;
+    height: 45px;
+    background: var(--unnamed-color-e4aaac) 0% 0% no-repeat padding-box;
+    background: #E4AAAC 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    opacity: 1;
+}
