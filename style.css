@@ -15,8 +15,6 @@ nav img {
     height: 6rem;
 }
 
-
-
 main.page {
     display: flex;
     align-items: center;
@@ -26,7 +24,7 @@ main.page {
     opacity: 1;
     height: 4658px;
     width: 76%;
-    margin-left: 262px;
+    margin-left: 230px;
     margin-top: 0;
 }
 
@@ -75,7 +73,7 @@ main .content .btn-sem-circle {
 }
 
 section {
-    margin-top: -275vh;
+    margin-top: -97vh;
 }
 
 .alinhar {
@@ -138,7 +136,8 @@ section {
     border: 1px solid #00000000;
     opacity: 1;
 }
-.about-consultorio .col-md-8{
+
+.about-consultorio .col-md-8 {
     flex: 0 0 auto;
     width: 505px !important;
     margin-left: -11rem !important;
@@ -161,12 +160,12 @@ section {
 }
 
 .about-consultorio .card-text {
-    font-size: 22px;
+    font-size: 18px;
     color: #6D6D6D;
 }
 
 .about-consultorio .col-md-4 .img-lateral {
-    width: 166%;
+    width: 172%;
 }
 
 .about-consultorio .waze {
@@ -174,7 +173,176 @@ section {
     border-radius: 25px;
 }
 
+.center-text h3 {
+    display: flex;
+    font-weight: bold;
+    font-family: 'Comfortaa' sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    font-size: 24px;
+    color: #4A7866;
+}
 
+.center-text a {
+    display: flex;
+    font-weight: bold;
+    font-family: 'Comfortaa' sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 18px;
+    color: #6D6D6D;
+}
+
+.curio {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+
+.curio .center-text h3 {
+    display: flex;
+    font-weight: bold;
+    font-family: 'Comfortaa' sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 39rem;
+    font-size: 24px;
+    color: #4A7866;
+}
+
+.curio .center-text p {
+    display: flex;
+    font-weight: bold;
+    font-family: 'Comfortaa' sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: #E4AAAC;
+}
+
+.news-content .card {
+    border: none;
+    margin-left: 16px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 17px #0000000F;
+    border-radius: 10px;
+    opacity: 1;
+    width: 318px !important;
+    height: 406px !important;
+
+}
+
+.news-content {
+    position: relative;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 35px;
+    width: 100%;
+}
+
+.news-content .card .strooo {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: -10rem;
+}
+
+.news-content .card .tororo {
+    position: absolute;
+    color: rgb(185, 185, 185);
+    font-size: 16px;
+    margin-top: -7rem;
+}
+
+.news-content .colum-card .card {
+    width: 336px;
+    height: 201px;
+}
+
+.curio button {
+    text-decoration: none;
+    border: none;
+    color: white;
+    background-color: #E4AAAC;
+    font-size: 22px;
+    width: 168px;
+    height: 45px;
+    background: var(--unnamed-color-e4aaac) 0% 0% no-repeat padding-box;
+    background: #E4AAAC 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    opacity: 1;
+}
+
+.agenda-consulta .svg-img {
+    margin-left: -16rem;
+    width: 210%;
+}
+
+.agenda-consulta .col-md-8 {
+    flex: 0 0 auto;
+    width: 350px !important;
+    margin-left: 20rem !important;
+    font-size: 21px;
+}
+
+.agenda-consulta .img-fluid {
+    width: 912px;
+    max-width: none !important;
+    height: auto;
+    margin-right: 10rem !important;
+}
+
+.agenda-consulta {
+    margin-top: 10rem;
+}
+
+.agenda-consulta .card-title {
+    font-size: 24px;
+    color: #4A7866;
+}
+
+.agenda-consulta .card-text {
+    font-size: 22px;
+    color: #6D6D6D;
+}
+
+.agenda-consulta .col-md-4 .img-lateral {
+    height: 418px;
+    width: 288px;
+    background: transparent url(src/Grupo\ de\ máscara\ 10.svg) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-left: 91px;
+}
+.agenda-consulta .waze {
+    width: 80px;
+    border-radius: 25px;
+}
+
+.agenda-consulta .col-md-4 {
+    width: 26.333333%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 1411px;
+    height: 530px;
+    margin-left: 1rem;
+}
 .card-body button {
     text-decoration: none;
     border: none;
