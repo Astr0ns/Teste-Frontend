@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+section {
+    margin-top: -266rem;
+}
+
+main .sub-content {
+    margin-top: 0;
+    margin-left: 0;
+}
+
+main .content {
+    position: absolute;
+    margin-top: 5rem;
+    margin-left: 0;
+}
+
+main .content .retang {
+    width: 337px;
+    margin-left: 0rem;
+    height: 130px;
+    margin-top: -8.5rem;
+    background-color: #85C2AD;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #6D6D6D;
+    font-family: 'Montserrat', sans-serif;
+}
+b {
+    font-weight: 100;
+}
