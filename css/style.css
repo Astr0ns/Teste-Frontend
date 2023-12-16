@@ -36,7 +36,9 @@ main.page {
 
 main .sub-content {
     margin-top: 23rem;
-    margin-left: 1.7rem;
+    display: flex;
+    margin-left: 7rem;
+    flex-direction: row;
 }
 
 main .content {
@@ -79,7 +81,7 @@ main .content .btn-sem-circle {
 }
 
 section {
-    margin-top: -49vh;
+    margin-top: -25vh;
     display: grid;
 }
 
@@ -88,7 +90,7 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: center;
+    justify-content: center;
     align-items: center;
     padding: 35px;
 }
@@ -166,7 +168,7 @@ section {
 }
 
 .about-consultorio .col-md-4 .img-lateral {
-    width: 159%;
+    width: 168%;
 }
 
 .about-consultorio .waze {
@@ -243,7 +245,7 @@ section {
 .news-content {
     position: relative;
     display: flex;
-    align-content: center;
+    justfy-content: center;
     align-items: center;
     padding: 35px;
     width: 100%;
@@ -321,7 +323,7 @@ section {
     width: 288px;
     background: transparent url(src/Grupo\ de\ máscara\ 10.svg) 0% 0% no-repeat padding-box;
     opacity: 1;
-    margin-left: 112px;
+    margin-left: 214px;
 }
 
 .agenda-consulta .waze {
@@ -340,9 +342,9 @@ footer {
 }
 
 footer img {
-    width: 1411px;
+    width: 1592px;
     height: 530px;
-    margin-left: 1rem;
+    margin-left: -16px;
 }
 
 .card-body button {
@@ -378,7 +380,7 @@ footer img {
     min-height: 70vh;
 }
 
-.about-consultorio{
+.about-consultorio {
     margin-top: 5rem;
     filter: blur(5px);
     transform: translate(-100%);
