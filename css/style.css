@@ -28,17 +28,21 @@ main.page {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 2px 14px #00000012;
     opacity: 1;
-    height: 4658px;
-    width: 84%;
-    margin-left: 143px;
+    width: 1396px;
+    margin-left: 14%;
     margin-top: 0;
 }
 
 main .sub-content {
-    margin-top: 23rem;
+    margin-top: 26rem;
     display: flex;
-    margin-left: 7rem;
+    margin-left: 25px;
     flex-direction: row;
+}
+
+main .sub-content img {
+    width: 1396px;
+    height: 780px;
 }
 
 main .content {
@@ -74,14 +78,14 @@ main .content .btn-sem-circle {
     width: 376px;
     margin-left: 30rem;
     height: 45px;
-    margin-top: -27.5rem;
+    margin-top: 22.5rem;
     font-size: 18px;
     border-radius: 22px;
     opacity: 1;
 }
 
 section {
-    margin-top: -25vh;
+    margin-top: -33vh;
     display: grid;
 }
 
@@ -136,7 +140,7 @@ section {
 
 /* SOBRE O CONSULTÓRIO*/
 .about-consultorio .svg-img {
-    margin-left: 0px;
+    margin-left: 25px;
     width: 198px;
     height: 425px;
     background: transparent url('img/Interseção 2.png') 0% 0% no-repeat padding-box;
@@ -147,7 +151,7 @@ section {
 .about-consultorio .col-md-8 {
     flex: 0 0 auto;
     width: 505px !important;
-    margin-left: -11rem !important;
+    margin-left: -9rem !important;
 }
 
 .about-consultorio .img-fluid {
@@ -293,7 +297,7 @@ section {
 .agenda-consulta .col-md-8 {
     flex: 0 0 auto;
     width: 350px !important;
-    margin-left: 20rem !important;
+    margin-left: 12rem !important;
     font-size: 21px;
 }
 
@@ -335,17 +339,6 @@ section {
     width: 26.333333%;
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer img {
-    width: 1592px;
-    height: 530px;
-    margin-left: -16px;
-}
 
 .card-body button {
     text-decoration: none;
@@ -388,10 +381,82 @@ footer img {
     min-height: 70vh;
 }
 
+.contac .icon {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.contac .text {
+    position: absolute;
+    white-space: nowrap;
+    bottom: 0;
+    left: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    margin-left: 0;
+    transition: left 0.3s ease-in-out;
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 17px #0000000F;
+
+}
+
+
+
+.contac .icon:hover .text {
+    left: 91%;
+    background: #f5f5f5 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 17px #0000000F;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.contac .icon:hover img {
+    transform: translateX(-190%);
+}
+
+
+.contac {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: -9rem;
+    gap: 16px;
+}
+
+.contac img {
+    width: 73px;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.contac .spn-green {
+    color: green;
+    font-weight: 600;
+}
 
 
 .show {
     opacity: 1;
     filter: blur(0);
     transform: translateX(0);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img {
+    width: 1396px;
 }

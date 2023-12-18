@@ -17,4 +17,3 @@ hiddenAlinhar.forEach((el) => observer.observe(el));
 
 const hiddenConsltorio = document.querySelectorAll('.about-consultorio');
 hiddenConsltorio.forEach((el) => observer.observe(el));
-
