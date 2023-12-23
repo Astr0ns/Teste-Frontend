@@ -112,3 +112,31 @@ b {
 .center-objects img {
     padding: 15px;
 }
+
+.trajetoria .col-md-4 {
+    width: 50%;
+}
+.trajetoria .col-md-8 {
+    width: 50%;
+}
+
+.trajetoria .card-body h5 {
+    color: #C49395;
+    font-family: 'Montserrat', ;
+    font-weight: 500;
+}
+.trajetoria hr{
+    color: #C49395;
+}
+.exp-prof{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.exp-prof li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: circle;
+}
