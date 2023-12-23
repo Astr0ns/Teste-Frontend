@@ -1,33 +1,114 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@200&display=swap');
 
 section {
-    margin-top: -266rem;
+    margin-top: 0;
 }
 
 main .sub-content {
-    margin-top: 0;
+    margin-top: 95px;
     margin-left: 0;
+}
+
+main .sub-content img {
+    width: 1396px;
+    height: 400px;
 }
 
 main .content {
     position: absolute;
     margin-top: 5rem;
-    margin-left: 0;
+    margin-left: 3rem;
 }
 
 main .content .retang {
-    width: 337px;
-    margin-left: 0rem;
+    width: 427px;
+    margin-left: -3rem;
     height: 130px;
     margin-top: -8.5rem;
     background-color: #85C2AD;
 }
 
 .card-text {
+    padding: 57px;
+    font-family: 'Monstcerrat', ;
     font-size: 18px;
     color: #6D6D6D;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
 }
+
+.p-text {
+    font-size: 18px;
+    color: #6D6D6D;
+    font-family: 'Montserrat', ;
+    font-weight: 500;
+}
+
+.center-text h3 {
+    display: flex;
+    font-family: 'Comfortaa', ;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    font-size: 24px;
+    color: #4A7866;
+}
+
+.center-text {
+    padding: 0 57px 30px;
+    font-family: 'Monstcerrat', ;
+    font-size: 18px;
+    color: #6D6D6D;
+    font-weight: 400;
+}
+
 b {
     font-weight: 100;
+}
+
+
+.talk-doctor {
+    width: 1253px;
+    height: 496px;
+    margin-left: 5rem;
+    margin-top: 0;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 1;
+}
+
+.talk-doctor .col-md-4 {
+    width: 50% !important;
+}
+
+
+.talk-doctor .col-md-8 {
+    width: 50% !important;
+    padding: 15px;
+}
+
+.talk-doctor  .card-body {
+    margin-left: 35px;
+}
+
+.talk-doctor .col-md-8 h5 {
+    color: #C49395;
+    font-weight: bold;
+}
+
+.talk-doctor .col-md-8 .p-pink {
+    color: #C49395;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.center-objects {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-objects img {
+    padding: 15px;
 }

@@ -54,7 +54,7 @@ main .content {
 
 main .content h3 {
     font-size: 49px;
-    font-family: 'Comfortaa', sans-serif;
+    font-family: 'Comfortaa', ;
     color: white;
 }
 
@@ -183,7 +183,7 @@ section {
 .center-text h3 {
     display: flex;
     font-weight: bold;
-    font-family: 'Comfortaa' sans-serif;
+    font-family: 'Comfortaa', ;
     justify-content: center;
     align-items: center;
     padding: 35px;
@@ -194,7 +194,7 @@ section {
 .center-text a {
     display: flex;
     font-weight: bold;
-    font-family: 'Comfortaa' sans-serif;
+    font-family: 'Comfortaa', ;
     justify-content: center;
     align-items: center;
     text-decoration: none;
@@ -214,7 +214,7 @@ section {
 .curio .center-text h3 {
     display: flex;
     font-weight: bold;
-    font-family: 'Comfortaa' sans-serif;
+    font-family: 'Comfortaa', ;
     justify-content: center;
     align-items: center;
     padding: 25px;
@@ -226,7 +226,7 @@ section {
 .curio .center-text p {
     display: flex;
     font-weight: bold;
-    font-family: 'Comfortaa' sans-serif;
+    font-family: 'Comfortaa', ;
     justify-content: center;
     align-items: center;
     text-decoration: none;
