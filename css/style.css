@@ -452,11 +452,66 @@ section {
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: #C49395;
+    background-image: url(/src/img-fundo.png);
 }
 
-footer img {
-    width: 1396px;
+.logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .col-md-4{
+    width: 320px !important;
+    padding: 30px;
+
+}
+footer .col-md-8{
+    width: 320px !important;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Montserrat', ;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+    font-family: 'Montserrat', ;
+    font-weight: 400;
+}
+
+footer .cop{
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .cop a{
+    font-family: 'Montserrat', ;
+    font-weight: normal;
+    color: white;
+    font-size: 18px;
+
+}
+
+footer a img{
+    width: 90px;
+    border-radius: 25px;
+}
+
+footer .maps {
+    background-color: #E4AAAC;
+    padding: 8px;
+    border-radius: 25px;
+}
+
+img .instgram-footer {
+    width: 31px;
+    border-radius: 0;
 }

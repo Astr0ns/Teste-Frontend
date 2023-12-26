@@ -113,6 +113,10 @@ b {
     padding: 15px;
 }
 
+.trajetoria {
+    padding: 50px;
+}
+
 .trajetoria .col-md-4 {
     width: 50%;
 }

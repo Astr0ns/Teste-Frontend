@@ -1,0 +1,48 @@
+.home {
+    background-color: #85C2AD;
+    width: 1396px;
+    height: 316px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6rem;
+}
+
+.perguntas {
+    display: flex;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+    width: 1196px;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: -4rem;
+    border-radius: 14px;
+}
+
+div#accordionExample {
+    width: 1071px;
+    padding: 35px;
+    background-color: #FAFAFA !important;
+}
+
+.accordion-item {
+    background-color: #FAFAFA !important;
+    border: 0 !important;
+    border-bottom: 1px solid #3E3E3E !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #85C2AD !important;
+    background-color: #FAFAFA !important;
+    box-shadow: 0 !important;
+    border: none !important;
+}
+
+.accordion-button {
+    background-color: #fafafa !important;
+    
+}
