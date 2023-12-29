@@ -121,6 +121,8 @@ section {
 .about .card-text {
     font-size: 22px;
     color: #6D6D6D;
+    font-weight: 300;
+    font-family: 'Montserrat';
 }
 
 .about .col-md-8 {
@@ -211,6 +213,10 @@ section {
     flex-direction: column;
 }
 
+.curio svg {
+    color: #E4AAAC;
+}
+
 .curio .center-text h3 {
     display: flex;
     font-weight: bold;
@@ -242,7 +248,7 @@ section {
     border-radius: 10px;
     opacity: 1;
     width: 318px !important;
-    height: 406px !important;
+    height: auto !important;
 
 }
 
@@ -268,6 +274,35 @@ section {
     color: rgb(185, 185, 185);
     font-size: 16px;
     margin-top: -7rem;
+}
+
+.card-colum .card {
+    height: auto !important;
+    padding: 10px;
+}
+
+.card-colum .card-body {
+    height: auto !important;
+}
+
+.news-content .card-colum .strooo {
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 4rem;
+}
+
+.news-content .card-colum .tororo {
+    position: absolute;
+    color: rgb(185, 185, 185);
+    font-size: 16px;
+    margin-top: 7rem;
+}
+
+.card-colum {
+    height: 410px;
+    width: auto;
 }
 
 .news-content .colum-card .card {
@@ -385,7 +420,7 @@ section {
     position: relative;
     display: inline-block;
     overflow: hidden;
-    width: 100%;
+    width: 13%;
     display: flex;
     flex-direction: column;
     align-content: flex-end;
@@ -410,7 +445,7 @@ section {
 
 
 .contac .icon:hover .text {
-    left: 91%;
+    left: 30%;
     background: #f5f5f5 0% 0% no-repeat padding-box;
     box-shadow: 0px 3px 17px #0000000F;
     border-radius: 15px;
@@ -429,7 +464,7 @@ section {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: flex-end;
-    margin-right: -9rem;
+    margin-right: -13rem;
     gap: 16px;
 }
 
@@ -462,16 +497,17 @@ footer {
     align-items: center;
 }
 
-footer .col-md-4{
+footer .col-md-4 {
     width: 320px !important;
     padding: 30px;
 
 }
-footer .col-md-8{
+
+footer .col-md-8 {
     width: 320px !important;
 }
 
-footer a{
+footer a {
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -485,14 +521,14 @@ footer p {
     font-weight: 400;
 }
 
-footer .cop{
+footer .cop {
     background-color: #FFFFFF;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-footer .cop a{
+footer .cop a {
     font-family: 'Montserrat', ;
     font-weight: normal;
     color: white;
@@ -500,7 +536,7 @@ footer .cop a{
 
 }
 
-footer a img{
+footer a img {
     width: 90px;
     border-radius: 25px;
 }
@@ -511,7 +547,7 @@ footer .maps {
     border-radius: 25px;
 }
 
-img .instgram-footer {
+footer .instgram-footer {
     width: 31px;
     border-radius: 0;
 }
