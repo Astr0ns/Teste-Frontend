@@ -3,9 +3,28 @@ section {
 }
 
 .home {
-    background: url('/src/IMG_2434.svg');
+    background: url(/src/IMG_2434.svg);
     width: 1396px;
     height: 316px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1 {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-size: 49px;
+    color: #F1F1F1;
+}
+
+.home h3 {
+    font-family: 'Montserrat';
+    color: #F1F1F1;
+    font-size: 21px;
 }
 
 .blog {
@@ -13,17 +32,54 @@ section {
     flex-direction: row;
     justify-content: flex-start;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 .blog .card {
     width: 418px;
     height: 490px;
+    border-radius: 32px;
+    margin-left: 12px;
+    row-gap: 12px;
 }
 
 
 .card-img-top-1 {
-    background: url('/src/shutterstock_1070794322.png') -26rem center;
-    background-size: cover;   
+    background: url('/src/shutterstock_490357888.png') center 30rem;
+    background-size: cover;
     width: 418px;
     height: 221px;
+    border-radius: 15px;
+}
+
+.card-img-top-2 {
+    background: url('/src/Grupo 441.png') -26rem center;
+    background-size: cover;
+    width: 418px;
+    height: 221px;
+    border-radius: 15px;
+}
+
+.card-img-top-3 {
+    background: url('/src/shutterstock_1070794322.png') -26rem center;
+    background-size: cover;
+    width: 418px;
+    height: 221px;
+    border-radius: 15px;
+}
+
+.card-img-top-4 {
+    background: url('/src/Grupo 442.png') -26rem center;
+    background-size: cover;
+    width: 418px;
+    height: 221px;
+    border-radius: 15px;
+}
+
+.card-img-top-5 {
+    background: url('/src/Grupo 443.png') -26rem center;
+    background-size: cover;
+    width: 418px;
+    height: 221px;
+    border-radius: 15px;
 }
