@@ -1,8 +1,29 @@
 section {
     margin-top: 10vh;
 }
+
 .home {
     background: url('/src/IMG_2434.svg');
     width: 1396px;
     height: 316px;
+}
+
+.blog {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.blog .card {
+    width: 418px;
+    height: 490px;
+}
+
+
+.card-img-top-1 {
+    background: url('/src/shutterstock_1070794322.png') -26rem center;
+    background-size: cover;   
+    width: 418px;
+    height: 221px;
 }
