@@ -1,0 +1,9 @@
+@import url('/css/news-content-4.css');
+
+.home {
+    background: url('/src/Grupo\ 448.png');
+}
+
+.corpo{
+    padding: 67px;
+}

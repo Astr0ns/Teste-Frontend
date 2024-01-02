@@ -13,8 +13,8 @@ header {
     font-size: 18px;
 }
 
-nav {
-    height: 6rem;
+.navbar {
+    height: 121px;
 }
 
 nav img {

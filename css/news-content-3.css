@@ -1,0 +1,9 @@
+@import url('/css/news-content-2.css');
+
+.home {
+    background: url('/src/Grupo\ 446.png');
+}
+
+.texto p {
+    margin-top: -3.8rem;
+}

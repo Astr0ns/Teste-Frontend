@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@100&display=swap');
+
+section {
+    margin-top: 13vh;
+}
+
+.home {
+    width: 1396px;
+    height: 318px;
+    background: transparent url('/src/Grupo 444.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.home .content h3 {
+    color: white;
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    width: 403px;
+    font-size: 24px;
+    margin-top: 2rem;
+
+}
+
+.home .content a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: white;
+    background: var(--unnamed-color-85c2ad) 0% 0% no-repeat padding-box;
+    background: #85C2AD 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    margin-top: 9rem;
+    padding: 10px;
+    opacity: 1;
+}
+
+.home .content {
+    margin-top: 9rem;
+}
+
+.corpo {
+    padding: 50px;
+}
+
+.corpo p {
+    font-family: 'Montserrat';
+    color: #7C7C7C;
+}
+
+.texto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding-top: 16px;
+}
+
+.texto h3 {
+    font-size: 18px;
+    flex-direction: column;
+    margin-left: 10px;
+    color: #7C7C7C;
+}
+
+.texto p {
+    font-size: 18px;
+    margin-left: 4rem;
+    margin-top: -1.8rem;
+    color: #7C7C7C;
+    width: 100%;
+}
+
+.texto img {
+    width: 55px;
+    height: 55px;
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-text p {
+    text-align: center;
+    font: normal normal bold 24px/32px Comfortaa;
+    letter-spacing: 0px;
+    color: #4A7866;
+    text-transform: uppercase;
+    opacity: 1;
+}

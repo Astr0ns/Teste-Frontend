@@ -1,0 +1,23 @@
+@import '/css/news-content-1.css';
+
+.home {
+    background: url('/src/Grupo\ 445.png');
+}
+
+.home .content h3 {
+    width: 552px;
+}
+
+.center-objects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-objects img {
+    width: 55px;
+    margin-left: 50px;
+}
+
