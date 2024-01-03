@@ -2,7 +2,7 @@
 
 
 header {
-    position: fixed;
+    position: absolute;
     width: 73.5%;
     z-index: 5;
     margin-left: 13.8%;
@@ -489,6 +489,8 @@ section {
 footer {
     background-color: #C49395;
     background-image: url(/src/img-fundo.png);
+    margin-left: 26px;
+    width: 96.3%;
 }
 
 .logo-footer {

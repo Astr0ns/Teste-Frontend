@@ -28,7 +28,7 @@
 
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #f5f5f54f;">
-      <a class="navbar-brand" href="#"><img src="src/logotipo-suzane.png" alt=""></a>
+      <a class="navbar-brand" href="index.html"><img src="src/logotipo-suzane.png" alt=""></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
         <span class="navbar-toggler-icon"></span>
@@ -46,7 +46,7 @@
             <a class="nav-link" href="news-content.html">Notícias e Conteúdo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contato</a>
+            <a class="nav-link" id="botaoContato" href="#">Contato</a>
           </li>
         </ul>
       </div>
@@ -65,7 +65,7 @@
           </div>
           <img src="src/BANNER-HOME.png" alt="">
           <div class="content">
-            <h3 class="btn-sem-circle">AGENDE SUA CONSULTA</h3>
+            <a style="text-decoration: none;" href="" id="botaoConsultorio"><h3 class="btn-sem-circle">AGENDE SUA CONSULTA</h3></a>
             <div class="sem-circle"></div>
           </div>
         </div>
@@ -272,13 +272,13 @@
             <div class="col-md-4">
               <p><a href="index.html">Home</a></p>
               <p><a href="sobre.html">Sobre</a></p>
-              <p><a href="#">O Consultório</a></p>
+              <p><a href="#" id="botaoConsultorio">O Consultório</a></p>
             </div>
 
             <div class="col-md-4">
               <p><a href="questions.html">Perguntas Frequentes</a></p>
-              <p><a href="#">Notícias e Conteúdo</a></p>
-              <p><a href="#">Contato</a></p>
+              <p><a href="news-content.html">Notícias e Conteúdo</a></p>
+              <p><a href="#" id="botaoContato">Contato</a></p>
             </div>
 
             <div class="col-md-8">
